@@ -1,0 +1,37 @@
+# build output
+build/
+out/
+build-*/
+
+# JUCE (auto-fetched via CMake FetchContent, or linked locally)
+JUCE/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# build artifacts
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.vst3
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# local agent workspace
+.workbuddy/
