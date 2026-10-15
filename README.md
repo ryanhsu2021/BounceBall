@@ -9,6 +9,24 @@
 
 ---
 
+## 下载
+
+不想自己编译？到 [**Releases**](../../releases/latest) 页直接下载预编译版本：
+
+| 文件 | 说明 |
+|---|---|
+| `BounceBall-v0.2.0-Windows-Standalone.zip` | 独立程序，解压即用，无需 DAW |
+| `BounceBall-v0.2.0-Windows-VST3.zip` | VST3 插件 |
+
+**Standalone**：解压后双击 `BounceBall.exe`。
+
+**VST3**：解压得到 `BounceBall.vst3` 文件夹，整个放到
+`C:\Program Files\Common Files\VST3\`（需管理员权限），再在 DAW 里重新扫描。
+
+> 未做代码签名，首次运行 Windows SmartScreen 可能提示 → 「更多信息」→「仍要运行」。
+
+---
+
 ## 特性
 
 **物理与音乐**
